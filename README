@@ -1,0 +1,11 @@
+To compile type, from the root directory of the project run
+
+$ make
+
+To clean project files, from the root directory of the project run
+
+$ make veryclean
+
+There is supposed to be a symbolic link between the Notebooks/Figures directory into the src/Figures/NBFigs directory. If that link is broken it will have to be readied for this to compile....
+
+$ ln -s Notebooks/Figures src/Figures/NBFigs
