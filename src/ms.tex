@@ -129,8 +129,7 @@
  }
 % \title{Updated High-Temperature Opacities for The Dartmouth Stellar Evolution Program and their Effect on the Jao Gap Location}
 \author{Emily M. Boudreaux$^{1}$, Renata Edeas Hoh$^{1}$, Brian C. Chaboyer$^{1}$, \& Gregory Feiden$^{2}$}
-\institute{{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}}
-\institute{{Department of Physics and Astronomy, University of North Georgia, Dahlonega, GA 30533, USA}}
+\institute{{$^{1}$Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}\\{$^{2}$Department of Physics and Astronomy, University of North Georgia, Dahlonega, GA 30533, USA}}
 \usepackage[utf8]{inputenc}
 \usepackage{wrapfig}
 \usepackage{amsmath}
@@ -166,6 +165,25 @@
       \vspace{-25mm}
     }
 
+		\block{Updating Atmosphers}{\fontsize{38}{45}\selectfont
+	    \vspace{-5mm}
+			% \begin{tikzfigure}[Solar Calibrated Stellar Models using both OPAL
+			% 	(black) and OPLIB (violet) high--temperature opacity tables.]
+			% 	\includegraphics[width=0.28\textwidth]{src/Figures/NBFigs/HRDiagramOPALvsOPLIB_SCCM.pdf}
+			% \end{tikzfigure}
+
+			\tikzpar For much of a stars radius ($\log(R)\approx-1.5$), OPAL
+			and OPLIB opacities vary by up to approximately 2\%. We calibrate a
+			solar model (above) to confirm that variations of this order do not
+			dramatically alter a solar model's evolutionary path.
+
+
+			\tikzpar These small variations may be more impactful for stars at or near
+			the convective transition mass. The interior structure, which is
+			believed to result in the Jao Gap, of such stars is very sensitive
+			to temperature; therefore, small changes in opacity may be more
+			impactful than in higher mass models.
+	    }
 		\block{Updating Opacities}{\fontsize{38}{45}\selectfont
 	    \vspace{-5mm}
 			% \begin{tikzfigure}[Solar Calibrated Stellar Models using both OPAL
@@ -213,7 +231,35 @@
 	
 
 	  \column{0.66}
+    \block{Fiducial Measurment}{\fontsize{38}{45}\selectfont
+      \tikzpar In order to measure the subtle number density variations seperating
+      populations along the Main Sequence we make use of a novel, convex-hull
+      based, adaptive binning approach. This algorithm keeps the number of stars
+      per bin uniform. An example of the density estiamte produced by this
+      algorithm is showin in Figure 1. Note how the sequences stand out clearly
+      in the density plot.
 
+      \begin{tikzfigure}[NGC 2808 CMD from the HUGS survey after data quality cuts have been applied (top). Number density of stars in the CMD of NGC 2808 (bottom). Darker regions are more dense.]
+        \includegraphics[width=0.6\textwidth]{src/Figures/NBFigs/DensityMap.png}
+      \end{tikzfigure}
+
+			\begin{minipage}[t]{0.33\linewidth}
+      \tikzpar In order to trace the sequences we use Baysian Gaussian Mixture Modeling
+      and the Diecrelt Process to fit the color-density profile over a series of
+      magnitude bins. This eliminats the need for a prior on exact the number of
+      populations, instead only requiring the max number of populations to be
+      defined. Traced fiducial lines for NGC 2808 two most extreme populations
+      (A\&E in Milone et al. 2015) are showin in Figure 2.
+			\end{minipage}%
+			\begin{adjustbox}{valign=t}
+        \begin{minipage}[t]{0.66\linewidth}
+          \begin{tikzfigure}[NGC 2808 populations A \& E median ridge lines measured using fidanka.]
+            \includegraphics[scale=1]{src/Figures/NBFigs/NGC2808Fid.png}
+          \end{tikzfigure}
+        \end{minipage}
+			\end{adjustbox}
+
+    }
 		% \block{Modeling the Gap}{\fontsize{38}{45}\selectfont
 		% 	\tikzpar A theoretical explanation for the Jao Gap comes from
 		% 	van Saders \& Pinsonneault 2012, who propose that in a star directly above the
@@ -222,9 +268,6 @@
 		% 	luminosity variations can be induced. This is known
 		% 	as convective-kissing instability.
 		% 	
-  %     % \begin{tikzfigure}[Internal Evolution of a star experiencing convective kissing instabilities. The shaded region shows the where in the model radiative transport dominates.]
-  %     % \includegraphics[width=0.6\textwidth]{src/Figures/NBFigs/Kippenhan.pdf}
-  %     % \end{tikzfigure}
 
 		% 	\vspace{-2cm}
 	 %    }

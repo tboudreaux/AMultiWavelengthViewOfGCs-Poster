@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  22 JUN 2023 08:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  22 JUN 2023 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,21 +1183,21 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 )) (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 146.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 145.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1243,152 +1243,161 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 146.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 146.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 146.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 146.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 146.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 146.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 146.
-LaTeX Font Info:    Redeclaring math accent \check on input line 146.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 146.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 146.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 146.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 146.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 145.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 145.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 145.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 145.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 145.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 145.
+LaTeX Font Info:    Redeclaring math accent \check on input line 145.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 145.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 145.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 145.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 146.
+(Font)              `operators' in the math version `normal' on input line 145.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 146.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 146.
+(Font)              `operators' in the math version `bold' on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 146.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 146.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 146.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 146.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 146.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 146.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 146.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 146.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 146.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 146.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 145.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <61.92> not available
-(Font)              size <24.88> substituted on input line 148.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <43> not available
-(Font)              size <24.88> substituted on input line 148.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 148.
+(Font)              size <24.88> substituted on input line 147.
 
 
-Overfull \hbox (132.14178pt too wide) in paragraph at lines 148--148
+Overfull \hbox (132.14178pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <51.6> not available
-(Font)              size <24.88> substituted on input line 148.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.83> not available
-(Font)              size <24.88> substituted on input line 148.
+(Font)              size <24.88> substituted on input line 147.
 
 
-Overfull \hbox (132.14178pt too wide) in paragraph at lines 148--148
+Overfull \hbox (132.14178pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 148 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
 File: src/D-Pine.eps Graphic file (type eps)
 <src/D-Pine.eps>
 File: src/Figures/logo_white.png Graphic file (type bmp)
 <src/Figures/logo_white.png>
-LaTeX Font Info:    Calculating math sizes for size <38> on input line 187.
+LaTeX Font Info:    Calculating math sizes for size <38> on input line 186.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <38> not available
-(Font)              size <35.83> substituted on input line 187.
+(Font)              size <35.83> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 187.
+(Font)              size <24.88> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19> not available
-(Font)              size <17.28> substituted on input line 187.
+(Font)              size <17.28> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 187.
+(Font)              size <35.83> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 187.
+(Font)              size <24.88> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 187.
+(Font)              size <17.28> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38> not available
-(Font)              size <24.88> substituted on input line 187.
+(Font)              size <24.88> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 187.
+(Font)              size <24.88> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 187.
+(Font)              size <17.28> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 187.
+(Font)              size <35.83> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 187.
+(Font)              size <24.88> substituted on input line 186.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 187.
+(Font)              size <17.28> substituted on input line 186.
 
 Missing character: There is no ́ in font ec-lmr17!
+File: src/Figures/NBFigs/DensityMap.png Graphic file (type bmp)
+<src/Figures/NBFigs/DensityMap.png>
+File: src/Figures/NBFigs/NGC2808Fid.png Graphic file (type bmp)
+<src/Figures/NBFigs/NGC2808Fid.png>
+
+Overfull \hbox (67.40059pt too wide) in paragraph at lines 262--262
+[][][] 
+ []
+
 [1
 
 ] (./ms.aux)
@@ -1401,12 +1410,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28150 strings out of 492962
- 620594 string characters out of 6135709
- 737519 words of memory out of 5000000
- 31731 multiletter control sequences out of 15000+600000
- 577454 words of font info for 81 fonts, out of 8000000 for 9000
+ 28160 strings out of 492962
+ 620881 string characters out of 6135709
+ 751565 words of memory out of 5000000
+ 31738 multiletter control sequences out of 15000+600000
+ 580469 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,10n,84p,802b,914s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,84p,802b,1094s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ms.pdf (1 page).
