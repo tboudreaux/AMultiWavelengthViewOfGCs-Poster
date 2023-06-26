@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  22 JUN 2023 10:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  26 JUN 2023 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,65 +1339,86 @@ File: src/D-Pine.eps Graphic file (type eps)
 <src/D-Pine.eps>
 File: src/Figures/logo_white.png Graphic file (type bmp)
 <src/Figures/logo_white.png>
-LaTeX Font Info:    Calculating math sizes for size <38> on input line 186.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 191.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <38> not available
-(Font)              size <35.83> substituted on input line 186.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <43> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 191.
 
+Underfull \hbox (badness 2012) in paragraph at lines 191--191
+[]\T1/lmr/m/n/38 The soft-ware we de-velop for this work
+ []
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19> not available
-(Font)              size <17.28> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38> not available
-(Font)              size <24.88> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26.59988> not available
-(Font)              size <24.88> substituted on input line 186.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 186.
-
-Missing character: There is no ́ in font ec-lmr17!
+File: src/Figures/FidankaSale.png Graphic file (type bmp)
+<src/Figures/FidankaSale.png>
 File: src/Figures/NBFigs/DensityMap.png Graphic file (type bmp)
 <src/Figures/NBFigs/DensityMap.png>
 File: src/Figures/NBFigs/NGC2808Fid.png Graphic file (type bmp)
 <src/Figures/NBFigs/NGC2808Fid.png>
 
-Overfull \hbox (67.40059pt too wide) in paragraph at lines 262--262
+Overfull \hbox (168.20131pt too wide) in paragraph at lines 242--242
 [][][] 
  []
 
+File: src/Figures/NBFigs/BestFit.png Graphic file (type bmp)
+<src/Figures/NBFigs/BestFit.png>
+LaTeX Font Info:    Calculating math sizes for size <38> on input line 242.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <38> not available
+(Font)              size <35.83> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19> not available
+(Font)              size <17.28> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38> not available
+(Font)              size <24.88> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 242.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 242.
+
+
+Overfull \hbox (5.62784pt too wide) in paragraph at lines 242--242
+[] [] 
+ []
+
+Missing character: There is no ́ in font ec-lmr17!
 [1
 
 ] (./ms.aux)
@@ -1410,12 +1431,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28160 strings out of 492962
- 620881 string characters out of 6135709
- 751565 words of memory out of 5000000
- 31738 multiletter control sequences out of 15000+600000
- 580469 words of font info for 82 fonts, out of 8000000 for 9000
+ 28210 strings out of 492962
+ 621723 string characters out of 6135709
+ 751566 words of memory out of 5000000
+ 31780 multiletter control sequences out of 15000+600000
+ 588683 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,10n,84p,802b,1094s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,84p,802b,1100s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ms.pdf (1 page).

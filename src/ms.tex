@@ -121,7 +121,7 @@
 \title{
 \begin{minipage}{\textwidth}
    \centering
-   Chemically Self Consistent Isochrones
+   Chemically Self-Consistent Isochrones
    \\
    \bigskip
    \mbox{of the Globular Cluster NGC 2808}
@@ -148,108 +148,67 @@
 	  \column{0.33}
 
 		\block{Abstract}{\fontsize{38}{45}\selectfont
-      \tikzpar The inferred helium mass fraction of multiple populations in
-      globular clusters can vary signifigantly from older to younger populations.
-      As the origin of these MPs remains an open question, and one which is
-      sensitive to the population - population compositional differences, the
-      extent of the composition variations is a key parameter when constraining
-      formation channels. Many metal abundances may be directly measured
-      spectroscopically; however, helium abundances are not directly observable
-      in GCs. Instead, helium abundances are inferred from stellar models. It is
-      therefore important to build stellar models which are chemically
-      self-consistent between the structure, atmosphere, and opacities. In this
-      work we present the first chemically self-consistent stellar models of the
-      Milky Way Globular Cluster NGC 2808. We find that the helium abundance of
-      the second generation of stars is higher than the first generation by SOME
-      AMOUNT
-      \vspace{-25mm}
+      \tikzpar The inferred helium mass fraction of multiple populations (MPs) in
+      globular clusters (GCs) can vary significantly from older to younger
+      populations {\color{blue}[1]}. As the origin of these MPs remains an open question, and one
+      which is sensitive to the compositional variations between populations,
+      the extent of the composition variations is a key parameter when
+      constraining formation channels. Many metal abundances may be directly
+      measured spectroscopically; however, helium abundances are not directly
+      observable in GCs. Instead, helium abundances are inferred from stellar
+      models. It is therefore important to build stellar models which are
+      chemically self-consistent between the structure, atmosphere, and
+      opacities. In this work we present the first chemically self-consistent
+      stellar models of the Milky Way globular cluster NGC 2808. We find that
+      the helium abundance of the second generation of stars is enhanced when
+      compared to the first generation by 9 percent.
     }
 
-		\block{Updating Atmosphers}{\fontsize{38}{45}\selectfont
+    \block{Consistency \& Modeling}{\fontsize{38}{45}\selectfont
 	    \vspace{-5mm}
-			% \begin{tikzfigure}[Solar Calibrated Stellar Models using both OPAL
-			% 	(black) and OPLIB (violet) high--temperature opacity tables.]
-			% 	\includegraphics[width=0.28\textwidth]{src/Figures/NBFigs/HRDiagramOPALvsOPLIB_SCCM.pdf}
-			% \end{tikzfigure}
+      
+      \tikzpar We use the Dartmouth stellar evolution program (DSEP) {\color{blue}[2]} to evolve
+      a grid of models with a variety of mixing lengths and helium mass
+      fractions. Atmospheric boundary conditions are computed using MARCS {\color{blue}[3]} 
+      and are kept chemically consistent with the structure code from hydrogen
+      to zinc. High-Temperature opacities are pulled from OPLIB and low
+      temperature opacities are pulled from Aesopus, both of these are also
+      kept chemically consistent from hydrogen to zinc.
 
-			\tikzpar For much of a stars radius ($\log(R)\approx-1.5$), OPAL
-			and OPLIB opacities vary by up to approximately 2\%. We calibrate a
-			solar model (above) to confirm that variations of this order do not
-			dramatically alter a solar model's evolutionary path.
-
-
-			\tikzpar These small variations may be more impactful for stars at or near
-			the convective transition mass. The interior structure, which is
-			believed to result in the Jao Gap, of such stars is very sensitive
-			to temperature; therefore, small changes in opacity may be more
-			impactful than in higher mass models.
 	    }
-		\block{Updating Opacities}{\fontsize{38}{45}\selectfont
+    \block{\texttt{FIDANKA}}{\fontsize{38}{45}\selectfont
 	    \vspace{-5mm}
-			% \begin{tikzfigure}[Solar Calibrated Stellar Models using both OPAL
-			% 	(black) and OPLIB (violet) high--temperature opacity tables.]
-			% 	\includegraphics[width=0.28\textwidth]{src/Figures/NBFigs/HRDiagramOPALvsOPLIB_SCCM.pdf}
-			% \end{tikzfigure}
+      
+      The software we develop for this work (\texttt{fidanka}) has been
+      released under a permissive open-source licence and is available on
+      GitHub.
 
-			\tikzpar For much of a stars radius ($\log(R)\approx-1.5$), OPAL
-			and OPLIB opacities vary by up to approximately 2\%. We calibrate a
-			solar model (above) to confirm that variations of this order do not
-			dramatically alter a solar model's evolutionary path.
+      \begin{tikzfigure}[Concept map of \texttt{fidanka}]
+        \includegraphics[width=0.28\textwidth]{src/Figures/FidankaSale.png}
+      \end{tikzfigure}
 
 
-			\tikzpar These small variations may be more impactful for stars at or near
-			the convective transition mass. The interior structure, which is
-			believed to result in the Jao Gap, of such stars is very sensitive
-			to temperature; therefore, small changes in opacity may be more
-			impactful than in higher mass models.
 	    }
-
-		\block{References}{
-			\vspace{-1cm}
-			\begin{minipage}[t]{0.75\linewidth}
-				{\fontsize{24}{22}\selectfont
-				\begin{enumerate}
-					\item Dotter, A., Chaboyer, B., Jevremovi ́c, D., et al. 2008, The Astrophysical Journal Supplement Series, 178, 89 
-					\item van Saders, J. L., \& Pinsonneault, M. H. 2012, The Astrophysical Journal, 751, 98
-					\item Jao, W.-C., Henry, T. J., Gies, D. R., \& Hambly, N. C. 2018, ApJL, 861, L11,
-				\end{enumerate}
-				}
-			\end{minipage}%
-			\begin{adjustbox}{valign=t}
-			\begin{minipage}[t]{0.25\linewidth}
-				\hspace{5mm}
-				% \includegraphics[scale=0.65]{src/QR.pdf}
-			\end{minipage}
-			\end{adjustbox}
-			{\fontsize{24}{22}\selectfont
-			\begin{enumerate}
-				 \setcounter{enumi}{3}
-				 \item Colgan, J., Kilcrease, D. P., Magee, N. H., et al. 2016, in APS Meeting Abstracts, Vol. 2016, APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts, D1.008
-			\end{enumerate}
-			}
-		}
-	
 
 	  \column{0.66}
-    \block{Fiducial Measurment}{\fontsize{38}{45}\selectfont
-      \tikzpar In order to measure the subtle number density variations seperating
+    \block{Fiducial Measurement}{\fontsize{38}{45}\selectfont
+      \tikzpar In order to measure the subtle number density variations separating
       populations along the Main Sequence we make use of a novel, convex-hull
       based, adaptive binning approach. This algorithm keeps the number of stars
-      per bin uniform. An example of the density estiamte produced by this
-      algorithm is showin in Figure 1. Note how the sequences stand out clearly
-      in the density plot.
+      per bin uniform. An example of the density estimate produced by this
+      algorithm is shown in Figure 2. \textbf{Note how the sequences stand out clearly
+      in the density plot.}
 
-      \begin{tikzfigure}[NGC 2808 CMD from the HUGS survey after data quality cuts have been applied (top). Number density of stars in the CMD of NGC 2808 (bottom). Darker regions are more dense.]
+      \begin{tikzfigure}[NGC 2808 CMD from the HUGS survey after data quality cuts have been applied (top). Number density of stars in the CMD of NGC 2808 (bottom).]
         \includegraphics[width=0.6\textwidth]{src/Figures/NBFigs/DensityMap.png}
       \end{tikzfigure}
 
-			\begin{minipage}[t]{0.33\linewidth}
-      \tikzpar In order to trace the sequences we use Baysian Gaussian Mixture Modeling
-      and the Diecrelt Process to fit the color-density profile over a series of
-      magnitude bins. This eliminats the need for a prior on exact the number of
-      populations, instead only requiring the max number of populations to be
-      defined. Traced fiducial lines for NGC 2808 two most extreme populations
-      (A\&E in Milone et al. 2015) are showin in Figure 2.
+			\begin{minipage}[t]{0.40\linewidth}
+      \tikzpar We use Bayesian Gaussian Mixture Modeling
+      and the Diecrelt Process to trace median ridge lines over a series of
+      magnitude bins. This eliminates the need for a prior on the exact number of
+      populations. Traced fiducial lines for the two most extreme populations
+        (A\&E in {\color{blue}[4]}) in NGC 2808 are shown in in Figure 3.
 			\end{minipage}%
 			\begin{adjustbox}{valign=t}
         \begin{minipage}[t]{0.66\linewidth}
@@ -259,31 +218,54 @@
         \end{minipage}
 			\end{adjustbox}
 
+      \vspace{5mm}
+
+			\begin{adjustbox}{valign=t}
+
+        \hspace{-3cm}
+
+        \begin{minipage}[t]{0.60\linewidth}
+          \begin{tikzfigure}[Preliminary best fitting isochrones. The discontinuity near color=2.9 is due to discrepencies between FreeEOS and an ideal EOS. Work is ongoing to resolve this prior to publication.]
+            \includegraphics[scale=1]{src/Figures/NBFigs/BestFit.png}
+          \end{tikzfigure}
+        \end{minipage}
+			\end{adjustbox}
+			\begin{minipage}[t]{0.45\linewidth}
+        Using the path from the fast dynamic time warping algorithm {\color{blue}[5]} as an
+        objective function we fit the optimal distance modulus, B-V color
+        excess, and age for NGC 2808. Best fitting isochrones are shown in
+        Figure 4. We find $\mu = 15.01$, $E(B-V)=0.43$, and age=11.81 Gyr ($\chi^{2}_{\nu} = 0.067)$. \textbf{We
+        find preliminary best fit helium mass fractions of Y=0.36 for Population E and
+        Y=0.27 for population A. These are consistent with past results from
+        the literature.}
+			\end{minipage}%
     }
-		% \block{Modeling the Gap}{\fontsize{38}{45}\selectfont
-		% 	\tikzpar A theoretical explanation for the Jao Gap comes from
-		% 	van Saders \& Pinsonneault 2012, who propose that in a star directly above the
-		% 	transition mass, due to asymmetric production and destruction of
-		% 	He$^{3}$ during the proton-proton I chain (ppI), periodic
-		% 	luminosity variations can be induced. This is known
-		% 	as convective-kissing instability.
-		% 	
 
-		% 	\vspace{-2cm}
-	 %    }
+    \block{}{%
 
-  %     {\begin{center}
-		% 		\bf{\color{Dgreen}\large Acknowledgments}
-  %     \end{center}}
+    \vspace{-2.5cm}
 
-		% 	{
-		% 	\fontsize{23}{20}\selectfont
-		% 	We acknowledge the support of an NASA grant (No.
-		% 	80NSSC18K0634). Additionally, we would like to thank James
-		% 	Colgan for his assistance with the OPLIB opacity tables. We
-		% 	would also like to thank Aaron Dotter and Elisabeth Newton.
-		% 	}
-
-
+      \begin{center}
+        \begin{minipage}{0.45\linewidth}
+          We acknowledge the support of a NASA grant (No. 80NSSC18K0634) and
+          JWST GO Grant (No. GO-02560). Additionally, we would like to thank
+          James Colgan, Elisabeth Newton, and Aaron Dotter for their assistance
+          with this work. Finally, we would like to thank Aylin Garcia Soto,
+          Keighley Rockcliffe, Rayna Rampalli, Stephanie Podjed, and Kara
+          Fagerstrom for their useful discussion related to this work. 
+        \end{minipage}\hfill
+        \begin{minipage}{0.45\linewidth}
+          {\fontsize{24}{22}\selectfont
+          \begin{enumerate}
+            \item Piotto, G., Bedin, L. R., Anderson, J., et al. 2007, \textit{ApJ} Letters, 661, L53
+            \item Dotter, A., Chaboyer, B., Jevremovi ́c, D., et al. 2008, \textit{ApJ} Supplement Series, 178, 89 
+            \item Gustafsson B., Edvardsson B., Eriksson K., Jørgensen U.G., Nordlund Å., Plez B. 2008, \textit{A\&A} 486, 951
+            \item Milone, A. P., Marino, A. F., Piotto, G., et al. 2015, \textit{ApJ}, 808, 51
+            \item Stan Salvador, and Philip Chan. 2007, \textit{Intelligent Data Analysis}, 561-580.
+          \end{enumerate}
+          }
+        \end{minipage}
+      \end{center}
+    }
 	\end{columns}
 \end{document}
